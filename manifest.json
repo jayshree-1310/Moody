@@ -1,0 +1,15 @@
+{
+  "name": "Sullen",
+  "description": "Filtering your home page based on your mood.",
+  "version": "1.0",
+  "manifest_version": 3,
+  "author": "Jayshree Upadhyay",
+  "browser_action": {
+    "16": "Sullen.png",
+    "24": "Sullen.png",
+    "32": "Sullen.png",
+    "default_title": "Have a good day"
+  },
+  "chrome_url_overrides": { "newtab": "index.html" },
+  "permissions": ["activeTab"]
+}
